@@ -408,10 +408,23 @@
                         coutput = `
                         Do not assume anything.<br/>
                         <br/>
-                        Putting pride and personal glory above duty and everything else is a precursor to a downfall that is to come. <br/>
+                        Putting pride and personal glory above duty and everything else is a precursor to a downfall that is to come.<br/>
                         <br/>
-                        In CS, CyberSecurity and Data Science, University rankings means nothing, only the relevance <br/> 
-                        and how up to date the courses are truly matters.
+                        In CS, CyberSecurity and Data Science, University rankings means nothing, only the relevance to the industry<br/> 
+                        and how up to date the courses are truly matters.<br/>
+                        <br/>
+                        The path to redemption is never straightforward.<br/>
+                        <br/>
+                        -----------------------------------------------------------------------------------------------------------------<br/>
+                        <br/>
+                        You can't judge one's victory if you haven't seen him defeated.<br/>
+                        - Ali Husnain<br/>
+                        <br/>
+                        If you are choosing obstacles then they are not obstacles.<br/>
+                        - Ali Husnain<br/>
+                        <br/>
+                        It's not the comfort but the comfort in hardship.<br/>
+                        - Ali Husnain
                         `
                     }
                     else
@@ -419,6 +432,35 @@
                         isError = true;
                         coutput = `Error: File does not exist`;
                     }
+                    break;
+                case "skills":
+                    isError = false;
+                    coutput = `
+                    ------ Programming Languages ------<br/>
+                    Java<br/>
+                    C#<br/>
+                    Python<br/>
+                    C++<br/>
+                    Kotlin<br/>
+                    <br/>
+                    ------ Web Development and Web Frameworks ------<br/>
+                    HTML<br/>
+                    CSS<br/>
+                    JavaScript<br/>
+                    ASP.NET<br/>
+                    Node.js<br/>
+                    React<br/>
+                    <br/>
+                    ------ Databases ------<br/>
+                    MySQL<br/>
+                    SQLite<br/>
+                    <br/>
+                    ------ Operating Systems ------<br/>
+                    Windows<br/>
+                    Ubuntu<br/>
+                    Kali Linux<br/>
+                    <br/>
+                    `;
                     break;
                 case "help":
 
@@ -435,6 +477,7 @@
                         cat [filename] <br>
                         echo [args] <br>
                         bio <br>
+                        skills <br>
                         stats <br>
                         uname <br>
                         ls <br>
@@ -457,6 +500,7 @@
                         cat [filename] <br>
                         echo [args] <br>
                         bio <br>
+                        skills <br>
                         stats <br>
                         &nbsp;&nbsp;&nbsp;&nbsp; -a all <br/>
                         uname <br>
@@ -838,7 +882,7 @@
     }
 
     function createCommandInput() {
-        return `<span id="prompt"><span class="user" style="color: green;">${currentuser}</span><span style="color: green; font-weight: bold;">@</span><span style="color: purple;">PariahOS</span><span class="dir" style="color: yellow">${currentdir}</span></span>&nbsp;<input id="cmd${cmdCounter}" type="text" name="command" style="visibility:visible;" autocomplete="false" placeholder="Enter command" onkeyup="cmdcaller(event)"><div class="output"></div>`;
+        return `<span id="prompt"><span class="user" style="color: green;">${currentuser}</span><span style="color: green; font-weight: bold;">@</span><span style="color: purple;">PariahOS</span><span class="dir" style="color: yellow">${currentdir}</span></span>&nbsp;<input id="cmd${cmdCounter}" type="text" name="command" style="visibility:visible;" autocomplete="false" onkeyup="cmdcaller(event)"><div class="output"></div>`;
     }
 
     function retaininputstyle(inputId) {
@@ -896,4 +940,6 @@
         if (input) {
             input.addEventListener("keydown", cmdcaller);
         }
+        /*Focus on input after website is done loading*/
+        document.getElementById("cmd1").focus(); 
     });
