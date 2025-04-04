@@ -462,13 +462,13 @@
                     Ubuntu<br/>
                     Kali Linux<br/>
                     <br/>
-                    ------ Miscellaneous Skills (Beginner Proficiency) ------- <br/>
-                    Amazon Web Services (AWS) <br/>
-                    Microsoft Azure <br/>
-                    Docker <br/>
-                    Burpsuite <br/>
-                    Metasploit <br/>
-                    PFSense <br/>
+                    ------ Miscellaneous Skills (Beginner Proficiency) -------<br/>
+                    Amazon Web Services (AWS)<br/>
+                    Microsoft Azure<br/>
+                    Docker<br/>
+                    Burpsuite<br/>
+                    Metasploit<br/>
+                    PFSense<br/>
                     <br/>
                     `;
                     break;
