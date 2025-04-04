@@ -367,25 +367,26 @@
                     {
                         isError = false;
                         coutput = `
-                        Sunset Stories <br/>
+                        <a href="https://github.com/Gh0ULSS/SocialStoriesFrontend" target="_blank">Sunset Stories</a> <br/>
                         <br/>
                         Adaptive Social Stories is designed to promote inclusivity in neurodiversity. The main focus is on special needs children to assist with <br/>
                         learning of mannerisms, self-improvement, social skills, success and various other topics/areas which serves as a foundation when the child <br/>
                         grows older. The Web Application developed with React, ASP.NET Core 6 supported by Entity Framework <br/>
                         and Filebase which is S3 compatible object storage for storing of images. <br/>
                         <br/>
-                        Tradies Projects <br/>
+                        <a href="https://github.com/Gh0ULSS/CSIT314-Project" target="_blank">Tradies Projects</a> <br/>
                         <br/>
                         Linking tradies with clients with location features. A Web application developed using the MERN Stack (MySQL, Express, React and Node). <br/>
                         <br/>
-                        Secure FileSystem <br/>
+                        <a href="https://github.com/Gh0ULSS/File-System" target="_blank">Secure FileSystem</a> <br/>
                         <br/>
                         A simulated file system written in C++, leveraging the MD5 algorithm for security and system security principles such as Bell-la-Padula Model <br/>
                         and Biba Model. <br/>
-                        Smallest Triangle <br/>
+                        <br/>
+                        <a href="https://github.com/Gh0ULSS/Smallest-Triangle" target="_blank">Smallest Triangle</a> <br/>
                         A program written in C to find the smallest triangle from a set of randomly generated cartesian coordinates. <br/>
                         <br/>
-                        Illawara Toy Robotics <br/>
+                        <a href="https://github.com/Gh0ULSS/CPP-Robot-Building" target="_blank">Illawara Toy Robotics</a> <br/>
                         A program written in C++ to simulate building of robots for customers by various builders. <br/>
                         `
                     }
@@ -448,8 +449,9 @@
                     CSS<br/>
                     JavaScript<br/>
                     ASP.NET<br/>
-                    Node.js<br/>
-                    React<br/>
+                    Node JS<br/>
+                    React.js<br/>
+                    Express.js<br/>
                     <br/>
                     ------ Databases ------<br/>
                     MySQL<br/>
@@ -459,6 +461,14 @@
                     Windows<br/>
                     Ubuntu<br/>
                     Kali Linux<br/>
+                    <br/>
+                    ------ Miscellaneous Skills (Beginner Proficiency) ------- <br/>
+                    Amazon Web Services (AWS)
+                    Microsoft Azure 
+                    Docker
+                    Burpsuite
+                    Metasploit
+                    PFSense
                     <br/>
                     `;
                     break;
