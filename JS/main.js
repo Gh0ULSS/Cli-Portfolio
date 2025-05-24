@@ -402,9 +402,25 @@
                         <br/>
                         `
                     }
+                    else if (cfile === "education.md")
+                    {
+                        isError = false;
+                        coutput = `
+                        UNIVERSITY OF SYDNEY (USYD) <br/>
+                        Masters of Cybersecurity <br/>
+                        2024 - 2025 <br/>
+                        <br/>
+                        UNIVERSITY OF WOLLONGONG (UOW) <br/>
+                        Bachelors of Computer Science, Cyber Security <br/>
+                        2020 - 2023 <br/>
+                        <br/>
+                        NANYANG POLYTECHNIC (NYP) <br/>
+                        Diploma in Information Technology, Information Security and Forensics <br/>
+                        2016 - 2019
+                        `
+                    }
                     else if (cfile === "lessons.md" && currentdir === ":/root>")
                     {
-                    
                         isError = false;
                         coutput = `
                         Do not assume anything.<br/>
@@ -416,7 +432,7 @@
                         <br/>
                         The path to redemption is never straightforward.<br/>
                         <br/>
-                        -----------------------------------------------------------------------------------------------------------------<br/>
+                        ----------------------------------------------------------------------------------------------------------------- <br/>
                         <br/>
                         You can't judge one's victory if you haven't seen him defeated.<br/>
                         - Ali Husnain<br/>
@@ -547,7 +563,7 @@
                         }
                         else
                         {
-                            coutput = `About.md Experience.md Projects.md Achievements.md`;
+                            coutput = `About.md Experience.md Education.md Projects.md Achievements.md`;
                         }
                     }
                     else if (lflag === "-l")
@@ -565,7 +581,8 @@
                             drwxr-xr-x 43 ghoulss ghoulss 234  Nov 24 2024 About.md <br/>
                             drwxr-xr-x  6 ghoulss ghoulss 1420 Nov 24 2024 Experience.md <br/>
                             drwxr-xr-x 12 ghoulss ghoulss 1652 Nov 25 2024 Projects.md <br/>
-                            drwxr-xr-x 12 ghoulss ghoulss 215  Dec  4 2024 Achievements.md 
+                            drwxr-xr-x 12 ghoulss ghoulss 215  Dec  4 2024 Achievements.md <br/>
+                            drwxr-xr-x 91 ghoulss ghoulss 1420 May 24 2025 Education.md 
                             `;
                         }
                     }
@@ -584,7 +601,8 @@
                             drwxr-xr-x 43 ghoulss ghoulss 190K  Nov 24 2024 About.md <br/>
                             drwxr-xr-x  6 ghoulss ghoulss 1.4MB Nov 24 2024 Experience.md <br/>
                             drwxr-xr-x 12 ghoulss ghoulss 1.6MB Nov 25 2024 Projects.md <br/>
-                            drwxr-xr-x 12 ghoulss ghoulss 162K  Dec  4 2024 Achievements.md 
+                            drwxr-xr-x 12 ghoulss ghoulss 215K  Dec  4 2024 Achievements.md <br/>
+                            drwxr-xr-x 12 ghoulss ghoulss 2.1MB May 24 2024 Education.md 
                             `;
                         }
                     }
