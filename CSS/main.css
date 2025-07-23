@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono'); 
 
 body {
     background-color: black;
     font-family: "Share Tech Mono";
+    font-size: 16px;
     position: relative; 
 }
 
@@ -33,6 +34,7 @@ body::before {
 #cmd1
 {
     font-family: inherit;
+    font-weight: bold;
     border: 0;
     outline: 0;
     color: white;
@@ -40,24 +42,42 @@ body::before {
     visibility: hidden;
 }
 
-.content{
+.header
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+
+.content
+{
     flex: 1;
     position: relative;
-    width: 1870px;
-    min-height: 925px;
+    width: 1880px;
+    min-height: 930px;
     color: red;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 5px;
-    box-shadow: 0 0 3px, 0 0 3px, 0 0 3px;
+    /* box-shadow: 0 0 3px, 0 0 3px, 0 0 3px; */
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     padding-top: 1px;
     padding-bottom: 3px; 
-    padding-left: 10px;
-    padding-right: 5px;
     overflow: visible;
+}
+
+.welcomemsg
+{
+    padding-left: 10px;
+}
+
+.CLI
+{
+    padding-left: 10px;
 }
 
 .foot 
@@ -69,8 +89,9 @@ body::before {
 
 .foot h4
 {
-    margin-top: 530px;
+    margin-top: 490px;
     margin-left: 700px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
 }
